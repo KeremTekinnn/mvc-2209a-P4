@@ -1,5 +1,5 @@
 -- Step: 01
--- Goal: Create a new database mvc-2209a-P4
+-- Goal: Create a new database Mvc-2209c-P4
 -- **********************************************************************************
 -- Version       Date:           Author:                     Description:
 -- *******       **********      ****************            ******************
@@ -7,13 +7,13 @@
 -- **********************************************************************************/
 
 -- Check if the database exists
-DROP DATABASE IF EXISTS `Mvc-2209a-P4`;
+DROP DATABASE IF EXISTS `Mvc-2209c-P4`;
 
 -- Create a new Database
-CREATE DATABASE IF NOT EXISTS `Mvc-2209a-P4`;
+CREATE DATABASE IF NOT EXISTS `Mvc-2209c-P4`;
 
--- Use database Mvc-2209a-P4
-Use `Mvc-2209a-P4`;
+-- Use database Mvc-2209c-P4
+Use `Mvc-2209c-P4`;
 
 
 -- Step: 02

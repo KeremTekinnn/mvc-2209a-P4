@@ -12,7 +12,7 @@
 </head>
 <body>
     <u><?= $data['title']; ?></u>
-
+    <h4>Aantal Instructeurs: <?= $data['aantalInstructeurs'];?></h4>
     <table>
         <thead>
             <th>Voornaam</th>
