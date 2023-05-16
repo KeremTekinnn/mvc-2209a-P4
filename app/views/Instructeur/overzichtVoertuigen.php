@@ -12,6 +12,8 @@
     
     <h3><?= $data['title']; ?></h3>
     <h4>Naam: <?= $data['naam'];?></h4>
+    <h4>Datum in dienst: <?= $data['datum'];?></h4>
+    <h4>AantalSterren: <?= $data['aantalSterren'];?></h4>
     <table>
         <thead>
             <th>TypeVoertuig</th>

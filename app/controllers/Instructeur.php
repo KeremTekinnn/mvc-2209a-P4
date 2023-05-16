@@ -53,7 +53,11 @@ class Instructeur extends BaseController
             $Id = $_GET['Id'];
             $result = $this->instructeurModel->getToegewezenVoertuigen($Id);
         }
+        //var_dump($result);
         $naam = $result[0]->full_name;
+        $datum = $result[0]->DatumInDienst;
+        $aantalSterren = $result[0]->AantalSterren;
+
         $tableRows = "";
 
         if (is_null($result[0]->TypeVoertuig)) {
@@ -85,6 +89,8 @@ class Instructeur extends BaseController
         $data = [
             'title'     => 'Door instructeur gebruikte voertuigen',
             'naam'      => $naam,
+            'datum'      => $datum,
+            'aantalSterren'   => $aantalSterren,
             'tableRows' => $tableRows
         ];
 
